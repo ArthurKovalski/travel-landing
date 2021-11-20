@@ -37,3 +37,14 @@ color:var(--dark-color);
     text-align: center;
     max-width: none;
 }
+
+.btn{
+    padding:33px 80px ;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 2.18182px;  
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: var(--white-color);
+
+}
