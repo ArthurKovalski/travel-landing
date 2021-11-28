@@ -37,6 +37,12 @@ line-height: 29px;
 color: #959EA6;
 display: inline-block;
 margin-bottom: 12px;
+transition:color 0.3s;
+}
+.footer__link:hover{
+    color: #666e75;
+    transition:color 0.3s;
+    
 }
 
 
@@ -60,6 +66,12 @@ margin-bottom: 12px;
     background-color: var(--neptune-color);
     height: 64px;
     margin-top: 16px;
+    transition: background-color 0.3s;
+}
+.subs__form-btn:hover{
+    background-color: var(--neptune-hover-color);
+    transition: background-color 0.3s;
+    
 }
 
 

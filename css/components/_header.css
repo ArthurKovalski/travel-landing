@@ -28,6 +28,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: opacity 0.3s;
+}
+
+.social__link:hover{
+    opacity: 0.6;
+    transition: opacity 0.3s;
 }
 .social__link--fb{
     background-image: url(/img/fb.svg);
@@ -55,6 +61,12 @@ text-decoration: none;
     width: 48px;
     height: 10px;
     position: relative;
+    
+}
+
+.burger:hover .burger__line{
+    background-color: var(--accent-color);
+    transition: background-color 0.3s;
 }
 
 .burger__line{
@@ -65,8 +77,35 @@ display: block;
 position: absolute;
 right: 0;
 top: 0;
+transition: background-color 0.3s;
 }
 .burger__line:last-child{
     top:auto;
     bottom: 0;
+}
+
+.menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: var(--accent-color);
+}
+.menu__nav{
+    height: 100%;
+    width: 100%;
+}
+
+.menu__list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
 }
